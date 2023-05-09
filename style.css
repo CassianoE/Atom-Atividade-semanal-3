@@ -41,7 +41,7 @@ li[data-gap="1"] {
   }
 
 .headernetbook {
-background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+
 }
 
 .logonetbook {
@@ -76,6 +76,92 @@ color: #FFFFFF;
 text-decoration: none;
 }
 
+.tresavatar {
+    margin-left: 80px;
+    margin-top: 75px;
+}
+
 .home {
     background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
+}
+
+.editorhome {
+    display: flex;
+}
+
+.colunadebotoesetexto {
+    display: flex;
+    flex-direction: column;
+}
+
+.botaocommunity p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 12px;
+/* identical to box height, or 100% */
+
+text-align: center;
+
+color: #217BF4;
+
+}
+
+.botaocommunity {
+    width: 177px;
+    height: 36px;
+    margin-left: 225px;
+    margin-top: 180px;
+    background-color: rgba(33, 123, 244, 0.1);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.colunadebotoesetexto h1 {
+    width: 515px;
+height: 132px;
+margin-left: 225px;
+margin-top: 20px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 66px;
+/* or 118% */
+
+
+color: #0A093D;
+
+}
+
+.pdacolunadostextoshome {
+    margin-left: 230px;
+margin-top: -15px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+color: #656464;
+}
+
+.botaoaboutmore {
+width: 162px;
+height: 102px;
+background: #217BF4;
+
+}
+
+.botaoaboutmoretexto {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+/* identical to box height, or 100% */
+text-align: center;
+color: #FFFFFF;
 }
