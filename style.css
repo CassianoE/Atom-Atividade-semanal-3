@@ -86,12 +86,10 @@
     /*alinhando a div pai da home*/
 
     .home {
-        padding: 0rem;
-        height: 85vh;
         display: flex;
         align-items: center;
-        padding-left: 14.5rem;
-        gap: 2.8rem;
+        justify-content: space-around;
+        gap: -10rem;
     }
 
     /*dimensionando a imagem da home*/
@@ -104,6 +102,12 @@
     }
 
     /* editando o 1 botao o titulo o texto e os 2 botoes a baixo do texto */
+
+    .colunadebotoesetitulo {
+        max-height: 366px;
+        max-width: 515px;
+    }
+
     .botaonetcommunity {
         padding: 0.750rem;
         width: 177px;
