@@ -25,6 +25,7 @@
         align-items: center;
         justify-content: space-around;
         padding: 1rem;
+        gap: 13rem;
     }
 
     /*alinhando a logo*/
@@ -88,24 +89,21 @@
     .home {
         display: flex;
         align-items: center;
-        justify-content: space-around;
-        gap: -10rem;
+        justify-content: center;
     }
 
     /*dimensionando a imagem da home*/
 
     .imagemhome {
-        max-width: 585px;
-        max-height: 500px;
-        width: auto;
-        height: auto;
+        width: 585px;
+        height: 501px;
     }
 
     /* editando o 1 botao o titulo o texto e os 2 botoes a baixo do texto */
 
     .colunadebotoesetitulo {
-        max-height: 366px;
-        max-width: 515px;
+        height: 366px;
+        width: 515px;
     }
 
     .botaonetcommunity {
