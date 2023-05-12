@@ -66,6 +66,10 @@
         padding-left: 0px;
     }
 
+    .setacommunity {
+        padding-bottom: 0.1rem;
+    }
+
     /* estilizando o botao log in */
 
     .botaonav {
@@ -182,9 +186,9 @@
     }
 
     /*COMUNIDADE STYLE JOAO */
-    
 
-    .comunidade{
+
+    .comunidade {
         height: 1069px;
         padding-left: 174px;
         padding-right: 174px;
@@ -193,11 +197,11 @@
         align-items: center;
         background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
     }
-    
+
     .comunidade__opcoes {
         margin-top: 64px;
     }
-    
+
     .comunidade__opcao--background {
         width: 522px;
         height: 182px;
@@ -208,34 +212,34 @@
         align-content: space-around;
         transition: all 0.3s;
     }
-    
+
     .comunidade__opcao--background:hover {
         background-color: rgba(0, 72, 168, 0.10);
     }
-    
+
     .comunidade__opcao--icone {
         width: 120px;
         height: 120px;
     }
-    
+
     .comunidade__opcao--organizacao-texto {
         display: flex;
         flex-direction: column;
     }
-    
+
     .comunidade__opcao--organizacao-itens {
         margin-bottom: 44px;
         gap: 44px;
         display: flex;
     }
-    
+
     .comunidade__opcao--titulo {
         font-weight: 600;
         font-size: 24px;
         line-height: 26px;
         color: #2F2C4A;
     }
-    
+
     .comunidade__opcao--texto {
         font-weight: 400;
         font-size: 16px;
@@ -243,7 +247,7 @@
         color: #656464;
         width: 315px;
     }
-    
+
     .comunidade__titulo--top {
         font-weight: 500;
         font-size: 18px;
@@ -252,7 +256,7 @@
         margin-top: 60px;
         margin-bottom: 0%;
     }
-    
+
     .comunidade__titulo--principal {
         font-style: normal;
         font-weight: 700;
@@ -261,9 +265,8 @@
         color: #0A093D;
         margin-top: 10px;
     }
-    
-    .comunidade__titulo--sub-titulo
-    {
+
+    .comunidade__titulo--sub-titulo {
         font-weight: 400;
         font-size: 16px;
         line-height: 28px;
@@ -272,19 +275,13 @@
         width: 420px;
     }
 
-    
-      a.extcomunity:link {
-        color:#ff0000;
-        text-decoration:none;
-      }
-      a.extcomunity:visited {
-        color:black;
-        text-decoration:none;
-      }
-    
-   
-    
-    
-    
-    
-    
+
+    a.extcomunity:link {
+        color: #ff0000;
+        text-decoration: none;
+    }
+
+    a.extcomunity:visited {
+        color: black;
+        text-decoration: none;
+    }
