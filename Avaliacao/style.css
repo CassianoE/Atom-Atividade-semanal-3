@@ -1,0 +1,136 @@
+body {
+    font-family: Inter;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+}
+
+#div1{
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    width: 336px;
+    height: 340px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header1{
+    display: flex;
+}
+
+#estrela{
+ width: 22px ;
+ height:21px ;
+ border-radius: 3px;
+ padding-left: 47px;
+}
+
+#perfil{
+    width: 60px ;
+    height:35px ;
+    border-radius: 500px;
+    margin-left: 44px;
+}
+
+#titulo{
+    color: #0A093D;
+    font-size: 20px;
+    margin-top: 0px;
+    padding-left: 12px;
+}
+
+.destaque{
+    color: #217BF4;
+}
+
+#subtitulo{
+    font-size: 16px;
+    color: #5D5B70;
+    padding-left: 16px;
+}
+
+#paragrafo1{
+    font-size: 16px;
+    color: #8C8C8C;
+    padding-left: 44px;
+}
+
+#footer1{
+    font-size: 16px;
+    color: #217BF4;
+    padding-left: 44px;
+}
+
+#article{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 131px;
+
+}
+
+#git{
+    margin-left: 47px;
+    width: 30px ;
+    height: 30px ;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+#trofeu{
+    margin-left: 47px;
+    width: 22px ;
+    height:21px ;
+    border-radius: 50px;
+}
+#div2{
+    border: 1px solid #8C8C8C;
+    width: 336px;
+    height: 340px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#footer2{
+    font-size: 16px;
+    color: #4A4A56;
+    padding-left: 44px;
+}
+
+#div3{
+    width: 336px;
+    height: 340px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#subtitulo3{
+    font-size: 18px;
+    color: #217BF4;
+    padding-left: 44px;
+}
+
+#titulo3{
+    font-size: 26px;
+    color: #0A093D;
+    padding-left: 44px;
+    margin-top: 0px;
+}
+
+#botao{
+    width: 192px;
+    height: 58px;
+    border-radius: 14px;
+    border: none;
+    background-color: #217BF4;
+    color: white;
+    margin-left: 44px;
+    margin-top: 18px;
+}
