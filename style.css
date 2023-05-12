@@ -180,3 +180,84 @@
         display: flex;
         gap: 1.125rem;
     }
+
+    /*estização parte sobre nos */
+
+    #lista {
+        list-style: none;
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    #principal {
+        margin-top: 192px;
+        margin-left: 135px;
+        margin-right: 0px;
+        width: 500px;
+
+    }
+
+    #pergunta {
+        color: #217BF4;
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+
+    #titulo {
+        color: #0A093D;
+        font-size: 36px;
+        margin-bottom: 25px;
+        margin-top: 0px;
+    }
+
+    #paragrafo {
+        color: #656464;
+        font-size: 16px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    #lista {
+        color: #171648;
+        font-size: 18px;
+    }
+
+    #li {
+        margin-bottom: 16px;
+    }
+
+    #imagem-div {
+        border-radius: 10px;
+        width: 267px;
+        height: 252px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+
+    }
+
+    #div-img {
+        justify-content: space-around;
+        margin-top: 124px;
+        margin-right: 0px;
+
+    }
+
+    #article {
+        display: flex;
+
+    }
+
+    #img-centro {
+        border-radius: 10px;
+        width: 281px;
+        height: 422px;
+
+    }
+
+    #centro {
+        margin-top: 190px;
+        padding-right: 25px;
+        padding-left: 175px;
+
+    }
