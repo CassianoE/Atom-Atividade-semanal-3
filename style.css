@@ -754,13 +754,13 @@
     }
 
     .news__line {
-        margin-top: 40px;
+        margin-right: 0.5rem;
+        margin-top: 2.3rem;
+        justify-content: center;
         width: 39px;
         border-top: 2px solid #FFAF2E;
     }
 
     .news__line-organiza {
         display: flex;
-        gap: 14px;
-        justify-content: center;
     }
