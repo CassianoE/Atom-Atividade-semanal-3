@@ -499,33 +499,33 @@
         color: black;
         text-decoration: none;
     }
-    
+
     /* css Membros*/
 
-    .headerMembros{
+    .headerMembros {
         padding-top: 210px;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
 
-    .subtituloMembros{
+    .subtituloMembros {
         font-size: 18px;
         color: #217BF4;
     }
 
-    .tituloMembros{
+    .tituloMembros {
         font-size: 36px;
         color: #0A093D;
         margin: 0px;
     }
 
-    .paragrafoMembros{
+    .paragrafoMembros {
         font-size: 16px;
         color: #656464;
     }
 
-    .botaoMembros{
+    .botaoMembros {
         margin-top: 40px;
         width: 474px;
         height: 72px;
@@ -536,7 +536,7 @@
         justify-content: space-around;
     }
 
-    .botaoM{
+    .botaoM {
         border-radius: 14px;
         color: #2F2C4A;
         background-color: #8BBAFA;
@@ -546,7 +546,7 @@
         font-size: 16px;
     }
 
-    .botaoM:hover{
+    .botaoM:hover {
         border-radius: 14px;
         color: #2F2C4A;
         background-color: #217BF4;
@@ -556,14 +556,14 @@
         font-size: 16px;
     }
 
-    .perfisMembros{
+    .perfisMembros {
         display: flex;
         padding-top: 100px;
         justify-content: space-between;
         width: 80vw;
     }
 
-    .perfilMembros{
+    .perfilMembros {
         width: 270px;
         height: 316px;
         border-radius: 14px;
@@ -572,24 +572,24 @@
         padding-top: 30px;
     }
 
-    .imagemMembros{
-        border-radius:30px;
+    .imagemMembros {
+        border-radius: 30px;
         width: 166px;
         height: 166px;
     }
 
-    .nomeMembros{
+    .nomeMembros {
         font-size: 24px;
         color: #2F2C4A;
     }
 
-    .arrobaMembros{
+    .arrobaMembros {
         font-size: 16px;
         color: #656464;
         font-style: normal;
     }
 
-    .perfilMembros:hover{
+    .perfilMembros:hover {
         width: 270px;
         height: 316px;
         border-radius: 14px;
@@ -599,9 +599,168 @@
         box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
     }
 
-    .sectionMembros{
+    .sectionMembros {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    /*Carlos inicio*/
+
+    #Carlos {
+        display: flex;
+        justify-content: center;
+    }
+
+    #publicidade {
+        display: flex;
+        background-color: #e5f0fd;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 24.5rem;
+    }
+
+
+    .font__publicidade {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .pub-paragrafo {
+        font-size: 16px;
+        font-weight: 400;
+        flex-wrap: wrap;
+        text-align: justify;
+        color: black;
+        margin-top: 18px;
+        margin-bottom: 36px;
+        width: 341px;
+    }
+
+    .pub__titulo-1 {
+        color: #217bf4;
+        text-align: center;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        margin-bottom: 10px;
+        width: 200px;
+    }
+
+    .pub__titulo-1:hover {
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: #217BF4;
+        color: white;
+        padding-left: 10px;
+    }
+
+    .pub__titulo-2 {
+        color: #0a093d;
+        font-weight: 700;
+        font-size: 36px;
+        margin-bottom: 10px;
+        margin-top: 18px;
+        width: 351px;
+    }
+
+    .news__titulo-2 {
+        font-size: 36px;
+        color: black;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 74px;
+
+    }
+
+    .news__titulo-1 {
+        color: #217bf4;
+        text-align: center;
+        margin-top: 130px;
+        margin-bottom: 0;
+    }
+
+    .pub__titulo-4 {
+        font-size: 20px;
+        font-weight: 600;
+        width: 273px;
+    }
+
+    .news__img {
+        width: 347px;
+        border-radius: 20px;
+    }
+
+    .pub__titulo-5 {
+        font-size: 16px;
+        color: #656464;
+    }
+
+    .pub__img-apst {
+        width: 147px;
+    }
+
+    .pub__img-apst:hover {
+        cursor: pointer;
+        width: 147px;
+    }
+
+    .pub__img-playstore {
+        width: 145px;
+    }
+
+    .pub__img-playstore:hover {
+        cursor: pointer;
+        width: 145px;
+    }
+
+    .pub__organiza {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pub__cell-phone {
+        display: flex;
+        height: 734.95px;
+        width: 440.5px;
+        position: static;
+        margin-left: 0;
+        margin-right: 400px;
+        margin-bottom: 0;
+    }
+
+    .news__titulo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Inter', sans-serif;
+    }
+
+    #last__news {
+        background-color: white;
+    }
+
+    .news__img-organiza {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .news__img-organiza-secao {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .news__line {
+        margin-top: 40px;
+        width: 39px;
+        border-top: 2px solid #FFAF2E;
+    }
+
+    .news__line-organiza {
+        display: flex;
+        gap: 14px;
+        justify-content: center;
     }
