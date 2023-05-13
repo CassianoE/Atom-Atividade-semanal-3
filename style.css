@@ -268,7 +268,7 @@
 
     /* estilizacao parte avaliacoes */
 
-    #div1 {
+    #div2:hover {
         border: 1px solid #ccc;
         box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
         width: 336px;
@@ -320,7 +320,7 @@
         padding-left: 44px;
     }
 
-    #footer1 {
+    #footer2:hover {
         font-size: 16px;
         color: #217BF4;
         padding-left: 44px;
@@ -498,4 +498,110 @@
     a.extcomunity:visited {
         color: black;
         text-decoration: none;
+    }
+    
+    /* css Membros*/
+
+    .headerMembros{
+        padding-top: 210px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .subtituloMembros{
+        font-size: 18px;
+        color: #217BF4;
+    }
+
+    .tituloMembros{
+        font-size: 36px;
+        color: #0A093D;
+        margin: 0px;
+    }
+
+    .paragrafoMembros{
+        font-size: 16px;
+        color: #656464;
+    }
+
+    .botaoMembros{
+        margin-top: 40px;
+        width: 474px;
+        height: 72px;
+        background-color: #8BBAFA;
+        border-radius: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .botaoM{
+        border-radius: 14px;
+        color: #2F2C4A;
+        background-color: #8BBAFA;
+        width: 150px;
+        height: 56px;
+        border: none;
+        font-size: 16px;
+    }
+
+    .botaoM:hover{
+        border-radius: 14px;
+        color: #2F2C4A;
+        background-color: #217BF4;
+        width: 150px;
+        height: 56px;
+        border: none;
+        font-size: 16px;
+    }
+
+    .perfisMembros{
+        display: flex;
+        padding-top: 100px;
+        justify-content: space-between;
+        width: 80vw;
+    }
+
+    .perfilMembros{
+        width: 270px;
+        height: 316px;
+        border-radius: 14px;
+        border: 2px solid rgba(243, 243, 243, 0.5);
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .imagemMembros{
+        border-radius:30px;
+        width: 166px;
+        height: 166px;
+    }
+
+    .nomeMembros{
+        font-size: 24px;
+        color: #2F2C4A;
+    }
+
+    .arrobaMembros{
+        font-size: 16px;
+        color: #656464;
+        font-style: normal;
+    }
+
+    .perfilMembros:hover{
+        width: 270px;
+        height: 316px;
+        border-radius: 14px;
+        border: 2px solid rgba(243, 243, 243, 0.5);
+        text-align: center;
+        padding-top: 30px;
+        box-shadow: 0px 34px 68px rgba(116, 115, 128, 0.1);
+    }
+
+    .sectionMembros{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
